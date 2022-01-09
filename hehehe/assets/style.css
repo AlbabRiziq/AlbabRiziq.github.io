@@ -68,10 +68,8 @@ body {
   color: #333;
 }
 
-
 /* /////////////////////////// */
-.tombol{
-    
+.tombol {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 20px;
@@ -83,7 +81,7 @@ body {
   font-weight: 700;
   color: white;
 }
-.tombolll{
+.tombolll {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 20px;
@@ -96,60 +94,60 @@ body {
   color: white;
 }
 
-.box2{
-    background: rgba(236, 235, 236, 0.8);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 400px;
-    border-radius: 20px;
-    transition: .1s;
-    display: none;
+.box2 {
+  background: rgba(236, 235, 236, 0.8);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 400px;
+  border-radius: 20px;
+  transition: 0.1s;
+  display: none;
 }
-.halo{
-    text-align: center;
+.halo {
+  text-align: center;
 }
-.pp{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.pp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.tempTombol{
-    float: right;
+.tempTombol {
+  float: right;
 }
-.pp p{
-    margin-left: 30px;
+.pp p {
+  margin-left: 30px;
 }
-video{
+video {
   display: none;
   position: relative;
   left: 0;
   top: 0;
   opacity: 1;
 }
-#videonya{
-   border-radius: 30px;
+#videonya {
+  border-radius: 30px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
 }
-.box3{
+.box3 {
   height: 400px;
   display: none;
 }
-.jam{
+.jam {
   font-size: 7vw;
   color: white;
   font-weight: 600;
   text-align: center;
 }
-.tanggal{
+.tanggal {
   font-size: 20px;
 }
-.quote{
+.quote {
   text-align: center;
   padding: 50px;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 30px;
 }
