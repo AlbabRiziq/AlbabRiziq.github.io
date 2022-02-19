@@ -1,0 +1,250 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f4dfba;
+  
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+nav {
+  background-color: #eec373;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.identitas {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+}
+.judul {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #503d1b;
+}
+.listNav {
+  display: flex;
+}
+.listNav a {
+  text-decoration: none;
+  color: #503d1b;
+  margin: 10px;
+  transition: 0.2s;
+}
+.listNav a:hover {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+.buttonMenu {
+  height: 32px;
+  display: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.close {
+  height: 29px;
+  cursor: pointer;
+  margin: 20px;
+}
+.ok {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/* Buat menu untuk mobile */
+
+.mobileMenu .listMenu a {
+  text-decoration: none;
+  color: #503d1b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+.mobileMenu .listMenu {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobileMenu .listMenu a:hover {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  background-color: #eec373;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4dfba;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.logoUtama {
+  height: 400px;
+}
+.infoo {
+  text-align: center;
+}
+.judulUtama{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #503d1b;
+}
+.motto{
+    font-size: 1.2em;
+    word-spacing: 5px;
+    color: #503d1b;
+}
+.btn{
+    background-color: #eec373;
+    color: #503d1b;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    border: #503d1b solid 2px;
+    background-color: #eec373;
+    color: #503d1b;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hehe{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #503d1b;
+}
+.cardProduct{
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px;
+    background-color: #EEC373;
+    border-radius: 10px;
+}
+.product{
+    height: 250px;
+    border-radius: 20px;
+}
+.judulProduct{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #503d1b;
+}
+.jj{
+    background-color: #f4dfba;
+    color: #503d1b;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.jj:hover{
+    border: #503d1b solid 2px;
+    background-color: #f4dfba;
+    color: #503d1b;
+}
+@media only screen and (max-width: 900px) {
+  .listNav a {
+    margin: 5px;
+    font-size: 0.8em;
+  }
+  .judul {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .listNav {
+    display: none;
+  }
+  .buttonMenu {
+    display: block;
+  }
+  .logo {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logoUtama {
+    height: 300px;
+  }
+  .judul {
+    font-size: 0.8em;
+  }
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .judulUtama{
+      font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 400px) {
+    .logoUtama{
+        height: 250px;
+    }
+    .judulUtama{
+        font-size: 1em;
+    }
+}
+.yaya {
+  border-radius: 0;
+}
+.hidden {
+  display: none;
+}
